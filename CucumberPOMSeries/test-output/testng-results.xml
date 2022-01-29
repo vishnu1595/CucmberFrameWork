@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-29T10:55:02Z" name="Default suite" finished-at="2022-01-29T10:55:52Z" duration-ms="50050">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallelTestng.ParallelRun@7daa0fbd]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-01-29T10:55:02Z" name="Default test" finished-at="2022-01-29T10:55:52Z" duration-ms="50050">
+      <class name="parallelTestng.ParallelRun">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:parallelTestng.ParallelRun@7daa0fbd]" started-at="2022-01-29T10:55:02Z" name="setUpClass" finished-at="2022-01-29T10:55:03Z" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallelTestng.ParallelRun@7daa0fbd]" started-at="2022-01-29T10:55:03Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-29T10:55:41Z" duration-ms="37547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should select leads module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Naviagate Different Module By Selecting Tab]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallelTestng.ParallelRun@7daa0fbd]" started-at="2022-01-29T10:55:03Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-29T10:55:49Z" duration-ms="45513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Should select add lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Add Lead with help of Excel data]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallelTestng.ParallelRun@7daa0fbd]" started-at="2022-01-29T10:55:03Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-29T10:55:38Z" duration-ms="34866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Forgot Password link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallelTestng.ParallelRun@7daa0fbd]" started-at="2022-01-29T10:55:03Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-29T10:55:40Z" duration-ms="37356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallelTestng.ParallelRun@7daa0fbd]" started-at="2022-01-29T10:55:03Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-29T10:55:42Z" duration-ms="38997" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Module Tab section count"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Naviagate Different Module By Selecting Tab]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallelTestng.ParallelRun@7daa0fbd]" started-at="2022-01-29T10:55:03Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-29T10:55:42Z" duration-ms="38933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with correct credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallelTestng.ParallelRun@7daa0fbd]" started-at="2022-01-29T10:55:03Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-29T10:55:49Z" duration-ms="45798" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Should select add lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Add Lead with help of Excel data]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<vi[rant]> but was:<vi[shnu]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<vi[rant]> but was:<vi[shnu]>
+at org.junit.Assert.assertEquals(Assert.java:117)
+at org.junit.Assert.assertEquals(Assert.java:146)
+at parallelTestng.LeadPageSteps.it_show_lead_information_by_getting_first_name(LeadPageSteps.java:51)
+at ✽.it show lead information by getting first name(classpath:parallelTestng/VtigerCrmAutomation.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:parallelTestng.ParallelRun@7daa0fbd]" started-at="2022-01-29T10:55:49Z" name="tearDownClass" finished-at="2022-01-29T10:55:52Z" duration-ms="3412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- parallelTestng.ParallelRun -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

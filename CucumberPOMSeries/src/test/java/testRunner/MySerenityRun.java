@@ -10,15 +10,13 @@ import io.cucumber.junit.CucumberOptions;
                  ,glue = {"StepDefinations", "appHooks"}
                  ,monochrome = true
                  ,plugin = {"pretty",
-       "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-       "timeline:test-output-thread/"
-       , "rerun:target/failedrerun.txt"
+       
                 		}
-          //   , tags = "not @skip or not @regression" //it will not run @skip tag
+          
                  
  
               )
-public class testRunner {
+public class MySerenityRun {
 
 	
 }
