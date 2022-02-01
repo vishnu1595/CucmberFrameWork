@@ -36,12 +36,12 @@ public class ApplicationHooks {
 
 	}
     
-	@Parameters("Browser")
+	
 	@Before(order = 2)
-	public void launchBrowser(String b) {
+	public void launchBrowser() {
 		String browserName  = prop.getProperty("Browser");
 		driverFactory = new DriverFactory();
-		driver = driverFactory.initDriver(b);
+		driver = driverFactory.initDriver(browserName);
 	}
 
 	@After(order = 0)
