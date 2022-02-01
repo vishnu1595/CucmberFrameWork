@@ -6,6 +6,7 @@ import org.junit.Assume;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Parameters;
 
 import com.qa.factory.DriverFactory;
 import com.qa.util.ConfigReader;
@@ -21,7 +22,7 @@ public class ApplicationHooks {
 	private ConfigReader configReader;
 	Properties prop;
 
-	
+
 	@Before (value="@skip",order=0)
 	public void skip_scenario(Scenario sce) {
 		System.out.println("Skipped scenario is : "+sce.getName());
@@ -34,12 +35,13 @@ public class ApplicationHooks {
 		prop = configReader.initProp();
 
 	}
-
+    
+	@Parameters("Browser")
 	@Before(order = 2)
-	public void launchBrowser() {
-		String browserName = prop.getProperty("Browser");
+	public void launchBrowser(String b) {
+		String browserName  = prop.getProperty("Browser");
 		driverFactory = new DriverFactory();
-		driver = driverFactory.initDriver(browserName);
+		driver = driverFactory.initDriver(b);
 	}
 
 	@After(order = 0)

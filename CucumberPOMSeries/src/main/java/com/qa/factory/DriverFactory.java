@@ -5,6 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import org.testng.annotations.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -18,6 +19,7 @@ public class DriverFactory {
 	 * @param browser
 	 * @return this will return tldriver
 	 */
+	
 	public WebDriver initDriver(String browser) {
 
 		System.out.println("Browser value is : " + browser);

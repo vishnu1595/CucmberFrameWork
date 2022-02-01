@@ -123,6 +123,11 @@
 						<!--  <include>**/ParallelRun.java</include>-->
 						<include>**/testRunner.java</include>
 					</includes>
+					<systemPropertyVariables>
+					   <browser>${Browser}</browser>
+					</systemPropertyVariables>
+					
+					
 					<parallel>methods</parallel>
 					<threadCount>4</threadCount>
 					<useUnlimitedThreads>false</useUnlimitedThreads>
