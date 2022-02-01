@@ -1,43 +1,43 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "70f63595-5835-472f-9018-f98f4296516a",
+    "id": "0c8b83e1-b892-4266-8671-d6ae184fa71e",
     "feature": "Login page feature",
     "scenario": "Login page title",
-    "start": 1643481621282,
-    "group": 1,
+    "start": 1643716644136,
+    "group": 15,
     "content": "",
     "tags": "@login,",
-    "end": 1643481626224,
+    "end": 1643716651069,
     "className": "passed"
   },
   {
-    "id": "7b5659c2-5a29-4311-b373-bf71f450cf9c",
-    "feature": "Login page feature",
-    "scenario": "Login with correct credentials",
-    "start": 1643481629488,
-    "group": 1,
-    "content": "",
-    "tags": "@login,",
-    "end": 1643481635851,
-    "className": "passed"
-  },
-  {
-    "id": "979e0916-f79c-42ef-80c1-624d41c05521",
+    "id": "ee81bfd7-605f-4489-92ed-df55a5c11d05",
     "feature": "Login page feature",
     "scenario": "Forgot Password link",
-    "start": 1643481626245,
-    "group": 1,
+    "start": 1643716651108,
+    "group": 15,
     "content": "",
     "tags": "@login,",
-    "end": 1643481629475,
+    "end": 1643716656728,
+    "className": "passed"
+  },
+  {
+    "id": "81d49d8a-4194-40ab-a7b5-198c0f53f016",
+    "feature": "Login page feature",
+    "scenario": "Login with correct credentials",
+    "start": 1643716656750,
+    "group": 15,
+    "content": "",
+    "tags": "@login,",
+    "end": 1643716665160,
     "className": "passed"
   }
 ]);
 CucumberHTML.timelineGroups.pushArray([
   {
-    "id": 1,
-    "content": "Thread[main,5,main]"
+    "id": 15,
+    "content": "Thread[pool-1-thread-1,5,main]"
   }
 ]);
 });
