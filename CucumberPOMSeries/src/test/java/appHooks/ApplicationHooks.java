@@ -6,7 +6,6 @@ import org.junit.Assume;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.Parameters;
 
 import com.qa.factory.DriverFactory;
 import com.qa.util.ConfigReader;
